@@ -18,4 +18,9 @@ public class Controller {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    public static void main(String[] args) {
+        Gina gina = new Gina();
+        gina.sayHi("GIna");
+    }
 }
